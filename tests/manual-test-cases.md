@@ -28,3 +28,13 @@
 | Password mismatch | Match error | Passed | Pass |
 | Unicode name | Valid | Passed | Pass |
 | Wrong plus sign | Phone error | Passed | Pass |
+## Mission 3: Debugging
+
+| Test | Expected Result | Actual Result | Status |
+|------|-----------------|---------------|--------|
+| [10,20,30] | 20 | 20 | Pass |
+| [5] | 5 | 5 | Pass |
+| [-10,0,10] | 0 | 0 | Pass |
+| [1.5,2.5] | 2 | 2 | Pass |
+| [] | null | null | Pass |
+| Invalid input | null | null | Pass |
